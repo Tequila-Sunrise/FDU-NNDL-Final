@@ -1,0 +1,2043 @@
+Configurations:
+----------------------------------------------------------------------
+|                     keys |                                   values|
+----------------------------------------------------------------------
+|               model_path |                                         |
+|              input_shape |                               [105, 105]|
+|               Init_Epoch |                                        0|
+|                    Epoch |                                      200|
+|               batch_size |                                       32|
+|                  Init_lr |                                     0.05|
+|                   Min_lr |                                   0.0005|
+|           optimizer_type |                                      sgd|
+|                 momentum |                                      0.9|
+|            lr_decay_type |                                      cos|
+|              save_period |                                       10|
+|                 save_dir |                                     logs|
+|              num_workers |                                        4|
+|                num_train |                                    48600|
+|                  num_val |                                     4000|
+----------------------------------------------------------------------
+----------------------------------------------------
+Epoch:1/200
+/root/miniconda3/lib/python3.8/site-packages/torch/tensor.py:587: RuntimeWarning: Iterating over a tensor might cause the trace to be incorrect. Passing a tensor of different shape won't change the number of iterations executed (and might lead to errors or silently give incorrect results).
+  warnings.warn('Iterating over a tensor might cause the trace to be incorrect. '
+train_loss: 0.6510213864022407 acc: 0.6093338274044796 lr: 0.0025000000000000005
+Finish Train
+Start Validation
+test_loss: 0.6130457773208619 acc: 0.674
+Finish Validation
+Train Loss: 0.651 || Test Loss: 0.613 
+Train Acc: 0.609 || Test Acc: 0.674 
+Save best model to best_epoch_weights.pth
+----------------------------------------------------
+----------------------------------------------------
+Epoch:2/200
+train_loss: 0.6136136395029714 acc: 0.6601202239789197 lr: 0.005
+Finish Train
+Start Validation
+test_loss: 0.5319729874134064 acc: 0.747875
+Finish Validation
+Train Loss: 0.614 || Test Loss: 0.532 
+Train Acc: 0.660 || Test Acc: 0.748 
+Save best model to best_epoch_weights.pth
+----------------------------------------------------
+----------------------------------------------------
+Epoch:3/200
+train_loss: 0.6055657624687916 acc: 0.6652976778656127 lr: 0.012499999999999999
+Finish Train
+Start Validation
+test_loss: 0.47829207253456113 acc: 0.79075
+Finish Validation
+Train Loss: 0.606 || Test Loss: 0.478 
+Train Acc: 0.665 || Test Acc: 0.791 
+Save best model to best_epoch_weights.pth
+----------------------------------------------------
+----------------------------------------------------
+Epoch:4/200
+train_loss: 0.6010503894962341 acc: 0.6687767621870883 lr: 0.025
+Finish Train
+Start Validation
+test_loss: 0.4599619128704071 acc: 0.797
+Finish Validation
+Train Loss: 0.601 || Test Loss: 0.460 
+Train Acc: 0.669 || Test Acc: 0.797 
+Save best model to best_epoch_weights.pth
+----------------------------------------------------
+----------------------------------------------------
+Epoch:5/200
+train_loss: 0.587031363498552 acc: 0.6816020256916996 lr: 0.024998253689241086
+Finish Train
+Start Validation
+test_loss: 0.46797851371765137 acc: 0.782
+Finish Validation
+Train Loss: 0.587 || Test Loss: 0.468 
+Train Acc: 0.682 || Test Acc: 0.782 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:6/200
+train_loss: 0.5780556377057816 acc: 0.6887351778656127 lr: 0.0249930152498292
+Finish Train
+Start Validation
+test_loss: 0.4516689476966858 acc: 0.79325
+Finish Validation
+Train Loss: 0.578 || Test Loss: 0.452 
+Train Acc: 0.689 || Test Acc: 0.793 
+Save best model to best_epoch_weights.pth
+----------------------------------------------------
+----------------------------------------------------
+Epoch:7/200
+train_loss: 0.5772614897828799 acc: 0.6907114624505929 lr: 0.024984286160219787
+Finish Train
+Start Validation
+test_loss: 0.4334462671279907 acc: 0.805
+Finish Validation
+Train Loss: 0.577 || Test Loss: 0.433 
+Train Acc: 0.691 || Test Acc: 0.805 
+Save best model to best_epoch_weights.pth
+----------------------------------------------------
+----------------------------------------------------
+Epoch:8/200
+train_loss: 0.5729295058723181 acc: 0.6936861824769434 lr: 0.02497206888404163
+Finish Train
+Start Validation
+test_loss: 0.4776420109272003 acc: 0.771875
+Finish Validation
+Train Loss: 0.573 || Test Loss: 0.478 
+Train Acc: 0.694 || Test Acc: 0.772 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:9/200
+train_loss: 0.5712120679841526 acc: 0.6947978425559947 lr: 0.02495636686940154
+Finish Train
+Start Validation
+test_loss: 0.41881471943855286 acc: 0.818375
+Finish Validation
+Train Loss: 0.571 || Test Loss: 0.419 
+Train Acc: 0.695 || Test Acc: 0.818 
+Save best model to best_epoch_weights.pth
+----------------------------------------------------
+----------------------------------------------------
+Epoch:10/200
+train_loss: 0.5781097604705411 acc: 0.687695569828722 lr: 0.024937184547911162
+Finish Train
+Start Validation
+test_loss: 0.4173433091640472 acc: 0.81825
+Finish Validation
+Train Loss: 0.578 || Test Loss: 0.417 
+Train Acc: 0.688 || Test Acc: 0.818 
+Save best model to best_epoch_weights.pth
+----------------------------------------------------
+----------------------------------------------------
+Epoch:11/200
+train_loss: 0.5722618480955345 acc: 0.6933053359683794 lr: 0.02491452733343626
+Finish Train
+Start Validation
+test_loss: 0.43245054721832277 acc: 0.7975
+Finish Validation
+Train Loss: 0.572 || Test Loss: 0.432 
+Train Acc: 0.693 || Test Acc: 0.797 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:12/200
+train_loss: 0.5680046461826885 acc: 0.6983592720685112 lr: 0.024888401620568736
+Finish Train
+Start Validation
+test_loss: 0.4054688513278961 acc: 0.8335
+Finish Validation
+Train Loss: 0.568 || Test Loss: 0.405 
+Train Acc: 0.698 || Test Acc: 0.834 
+Save best model to best_epoch_weights.pth
+----------------------------------------------------
+----------------------------------------------------
+Epoch:13/200
+train_loss: 0.566120776695068 acc: 0.6983180994729907 lr: 0.02485881478282188
+Finish Train
+Start Validation
+test_loss: 0.4119887144565582 acc: 0.8215
+Finish Validation
+Train Loss: 0.566 || Test Loss: 0.412 
+Train Acc: 0.698 || Test Acc: 0.822 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:14/200
+train_loss: 0.5663773654438604 acc: 0.6970623353096179 lr: 0.02482577517054932
+Finish Train
+Start Validation
+test_loss: 0.420726585149765 acc: 0.812375
+Finish Validation
+Train Loss: 0.566 || Test Loss: 0.421 
+Train Acc: 0.697 || Test Acc: 0.812 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:15/200
+train_loss: 0.5649816986953788 acc: 0.7001296936758893 lr: 0.02478929210858829
+Finish Train
+Start Validation
+test_loss: 0.42761801671981814 acc: 0.81425
+Finish Validation
+Train Loss: 0.565 || Test Loss: 0.428 
+Train Acc: 0.700 || Test Acc: 0.814 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:16/200
+train_loss: 0.5630428741571931 acc: 0.7012516469038208 lr: 0.024749375893627853
+Finish Train
+Start Validation
+test_loss: 0.4250073099136353 acc: 0.806875
+Finish Validation
+Train Loss: 0.563 || Test Loss: 0.425 
+Train Acc: 0.701 || Test Acc: 0.807 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:17/200
+train_loss: 0.5605415543430878 acc: 0.7018486495388669 lr: 0.02470603779130287
+Finish Train
+Start Validation
+test_loss: 0.41487599420547483 acc: 0.81625
+Finish Validation
+Train Loss: 0.561 || Test Loss: 0.415 
+Train Acc: 0.702 || Test Acc: 0.816 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:18/200
+train_loss: 0.5632035541636513 acc: 0.7008193346508564 lr: 0.02465929003301445
+Finish Train
+Start Validation
+test_loss: 0.4202201964855194 acc: 0.82025
+Finish Validation
+Train Loss: 0.563 || Test Loss: 0.420 
+Train Acc: 0.701 || Test Acc: 0.820 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:19/200
+train_loss: 0.5619312158647105 acc: 0.7030117753623188 lr: 0.024609145812477858
+Finish Train
+Start Validation
+test_loss: 0.43137977123260496 acc: 0.796125
+Finish Validation
+Train Loss: 0.562 || Test Loss: 0.431 
+Train Acc: 0.703 || Test Acc: 0.796 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:20/200
+train_loss: 0.5587883205478213 acc: 0.7041646080368906 lr: 0.024555619281998845
+Finish Train
+Start Validation
+test_loss: 0.4537240936756134 acc: 0.781375
+Finish Validation
+Train Loss: 0.559 || Test Loss: 0.454 
+Train Acc: 0.704 || Test Acc: 0.781 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:21/200
+train_loss: 0.5568080006537859 acc: 0.7031764657444005 lr: 0.024498725548479407
+Finish Train
+Start Validation
+test_loss: 0.42099349880218506 acc: 0.811125
+Finish Validation
+Train Loss: 0.557 || Test Loss: 0.421 
+Train Acc: 0.703 || Test Acc: 0.811 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:22/200
+train_loss: 0.5563589314658965 acc: 0.7066246706192358 lr: 0.02443848066915412
+Finish Train
+Start Validation
+test_loss: 0.39663819885253904 acc: 0.8275
+Finish Validation
+Train Loss: 0.556 || Test Loss: 0.397 
+Train Acc: 0.707 || Test Acc: 0.828 
+Save best model to best_epoch_weights.pth
+----------------------------------------------------
+----------------------------------------------------
+Epoch:23/200
+train_loss: 0.5554446325550281 acc: 0.706542325428195 lr: 0.024374901647058283
+Finish Train
+Start Validation
+test_loss: 0.4210571026802063 acc: 0.814125
+Finish Validation
+Train Loss: 0.555 || Test Loss: 0.421 
+Train Acc: 0.707 || Test Acc: 0.814 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:24/200
+train_loss: 0.5552110400674214 acc: 0.7059556159420289 lr: 0.024308006426229125
+Finish Train
+Start Validation
+test_loss: 0.3930570514202118 acc: 0.833
+Finish Validation
+Train Loss: 0.555 || Test Loss: 0.393 
+Train Acc: 0.706 || Test Acc: 0.833 
+Save best model to best_epoch_weights.pth
+----------------------------------------------------
+----------------------------------------------------
+Epoch:25/200
+train_loss: 0.5556634466638678 acc: 0.7050395256916996 lr: 0.02423781388664141
+Finish Train
+Start Validation
+test_loss: 0.4259576909542084 acc: 0.815625
+Finish Validation
+Train Loss: 0.556 || Test Loss: 0.426 
+Train Acc: 0.705 || Test Acc: 0.816 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:26/200
+train_loss: 0.5487431164276302 acc: 0.7108551548089591 lr: 0.0241643438388789
+Finish Train
+Start Validation
+test_loss: 0.39687758636474607 acc: 0.826875
+Finish Validation
+Train Loss: 0.549 || Test Loss: 0.397 
+Train Acc: 0.711 || Test Acc: 0.827 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:27/200
+train_loss: 0.5494428387154704 acc: 0.7102684453227931 lr: 0.024087617018543207
+Finish Train
+Start Validation
+test_loss: 0.4194911413192749 acc: 0.81025
+Finish Validation
+Train Loss: 0.549 || Test Loss: 0.419 
+Train Acc: 0.710 || Test Acc: 0.810 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:28/200
+train_loss: 0.5491231333007925 acc: 0.7103713768115942 lr: 0.024007655080401483
+Finish Train
+Start Validation
+test_loss: 0.4306461865901947 acc: 0.798375
+Finish Validation
+Train Loss: 0.549 || Test Loss: 0.431 
+Train Acc: 0.710 || Test Acc: 0.798 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:29/200
+train_loss: 0.5526361930354625 acc: 0.707808382740448 lr: 0.023924480592274807
+Finish Train
+Start Validation
+test_loss: 0.39600211155414583 acc: 0.8345
+Finish Validation
+Train Loss: 0.553 || Test Loss: 0.396 
+Train Acc: 0.708 || Test Acc: 0.835 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:30/200
+train_loss: 0.5491593611256093 acc: 0.7119771080368906 lr: 0.023838117028668785
+Finish Train
+Start Validation
+test_loss: 0.390372022151947 acc: 0.83
+Finish Validation
+Train Loss: 0.549 || Test Loss: 0.390 
+Train Acc: 0.712 || Test Acc: 0.830 
+Save best model to best_epoch_weights.pth
+----------------------------------------------------
+----------------------------------------------------
+Epoch:31/200
+train_loss: 0.5456559679253771 acc: 0.7147665513833992 lr: 0.023748588764148326
+Finish Train
+Start Validation
+test_loss: 0.37028497910499575 acc: 0.843375
+Finish Validation
+Train Loss: 0.546 || Test Loss: 0.370 
+Train Acc: 0.715 || Test Acc: 0.843 
+Save best model to best_epoch_weights.pth
+----------------------------------------------------
+----------------------------------------------------
+Epoch:32/200
+train_loss: 0.5435031508936085 acc: 0.7157855731225297 lr: 0.023655921066458318
+Finish Train
+Start Validation
+test_loss: 0.4317619285583496 acc: 0.807875
+Finish Validation
+Train Loss: 0.544 || Test Loss: 0.432 
+Train Acc: 0.716 || Test Acc: 0.808 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:33/200
+train_loss: 0.5466811932593938 acc: 0.7130784749670619 lr: 0.023560140089392296
+Finish Train
+Start Validation
+test_loss: 0.39258325028419494 acc: 0.827875
+Finish Validation
+Train Loss: 0.547 || Test Loss: 0.393 
+Train Acc: 0.713 || Test Acc: 0.828 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:34/200
+train_loss: 0.5418077432433921 acc: 0.7155694169960475 lr: 0.02346127286541099
+Finish Train
+Start Validation
+test_loss: 0.3932315398454666 acc: 0.827875
+Finish Validation
+Train Loss: 0.542 || Test Loss: 0.393 
+Train Acc: 0.716 || Test Acc: 0.828 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:35/200
+train_loss: 0.544020406636796 acc: 0.7133255105401844 lr: 0.023359347298012895
+Finish Train
+Start Validation
+test_loss: 0.4170117120742798 acc: 0.812375
+Finish Validation
+Train Loss: 0.544 || Test Loss: 0.417 
+Train Acc: 0.713 || Test Acc: 0.812 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:36/200
+train_loss: 0.5402848664793887 acc: 0.7164855072463768 lr: 0.02325439215385901
+Finish Train
+Start Validation
+test_loss: 0.4187525477409363 acc: 0.807875
+Finish Validation
+Train Loss: 0.540 || Test Loss: 0.419 
+Train Acc: 0.716 || Test Acc: 0.808 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:37/200
+train_loss: 0.5416504900917234 acc: 0.717875082345191 lr: 0.023146437054653978
+Finish Train
+Start Validation
+test_loss: 0.39157794737815854 acc: 0.830625
+Finish Validation
+Train Loss: 0.542 || Test Loss: 0.392 
+Train Acc: 0.718 || Test Acc: 0.831 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:38/200
+train_loss: 0.5396082684574391 acc: 0.7175148221343873 lr: 0.02303551246878587
+Finish Train
+Start Validation
+test_loss: 0.3735873508453369 acc: 0.8385
+Finish Validation
+Train Loss: 0.540 || Test Loss: 0.374 
+Train Acc: 0.718 || Test Acc: 0.839 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:39/200
+train_loss: 0.5381493714290803 acc: 0.7192646574440053 lr: 0.022921649702727045
+Finish Train
+Start Validation
+test_loss: 0.38733860898017886 acc: 0.832125
+Finish Validation
+Train Loss: 0.538 || Test Loss: 0.387 
+Train Acc: 0.719 || Test Acc: 0.832 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:40/200
+train_loss: 0.5365176146288007 acc: 0.7200160573122529 lr: 0.022804880892198464
+Finish Train
+Start Validation
+test_loss: 0.3835619021654129 acc: 0.83
+Finish Validation
+Train Loss: 0.537 || Test Loss: 0.384 
+Train Acc: 0.720 || Test Acc: 0.830 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:41/200
+train_loss: 0.5375140735558056 acc: 0.7186779479578392 lr: 0.022685238993099946
+Finish Train
+Start Validation
+test_loss: 0.40607632613182065 acc: 0.8235
+Finish Validation
+Train Loss: 0.538 || Test Loss: 0.406 
+Train Acc: 0.719 || Test Acc: 0.824 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:42/200
+train_loss: 0.5361300540771409 acc: 0.7193675889328063 lr: 0.022562757772208956
+Finish Train
+Start Validation
+test_loss: 0.38021628618240355 acc: 0.835875
+Finish Validation
+Train Loss: 0.536 || Test Loss: 0.380 
+Train Acc: 0.719 || Test Acc: 0.836 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:43/200
+train_loss: 0.5337514995704056 acc: 0.7218585309617919 lr: 0.02243747179765056
+Finish Train
+Start Validation
+test_loss: 0.38497252225875855 acc: 0.8315
+Finish Validation
+Train Loss: 0.534 || Test Loss: 0.385 
+Train Acc: 0.722 || Test Acc: 0.832 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:44/200
+train_loss: 0.5353270954058575 acc: 0.7196043313570487 lr: 0.02230941642914117
+Finish Train
+Start Validation
+test_loss: 0.38094799280166625 acc: 0.839375
+Finish Validation
+Train Loss: 0.535 || Test Loss: 0.381 
+Train Acc: 0.720 || Test Acc: 0.839 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:45/200
+train_loss: 0.5336737839875643 acc: 0.7210762516469038 lr: 0.022178627808008913
+Finish Train
+Start Validation
+test_loss: 0.39523883843421936 acc: 0.823875
+Finish Validation
+Train Loss: 0.534 || Test Loss: 0.395 
+Train Acc: 0.721 || Test Acc: 0.824 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:46/200
+train_loss: 0.5324155823554603 acc: 0.7235671936758893 lr: 0.022045142846993375
+Finish Train
+Start Validation
+test_loss: 0.3759886876344681 acc: 0.842625
+Finish Validation
+Train Loss: 0.532 || Test Loss: 0.376 
+Train Acc: 0.724 || Test Acc: 0.843 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:47/200
+train_loss: 0.5312214040826903 acc: 0.7227746212121212 lr: 0.021908999219827665
+Finish Train
+Start Validation
+test_loss: 0.3854302988052368 acc: 0.832875
+Finish Validation
+Train Loss: 0.531 || Test Loss: 0.385 
+Train Acc: 0.723 || Test Acc: 0.833 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:48/200
+train_loss: 0.5307526722138107 acc: 0.7238656949934124 lr: 0.021770235350605658
+Finish Train
+Start Validation
+test_loss: 0.37556479263305664 acc: 0.839
+Finish Validation
+Train Loss: 0.531 || Test Loss: 0.376 
+Train Acc: 0.724 || Test Acc: 0.839 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:49/200
+train_loss: 0.5287381345418445 acc: 0.7245656291172595 lr: 0.0216288904029375
+Finish Train
+Start Validation
+test_loss: 0.3797325506210327 acc: 0.83525
+Finish Validation
+Train Loss: 0.529 || Test Loss: 0.380 
+Train Acc: 0.725 || Test Acc: 0.835 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:50/200
+train_loss: 0.5268008698155915 acc: 0.7278800230566534 lr: 0.021485004268896376
+Finish Train
+Start Validation
+test_loss: 0.38126010394096377 acc: 0.837
+Finish Validation
+Train Loss: 0.527 || Test Loss: 0.381 
+Train Acc: 0.728 || Test Acc: 0.837 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:51/200
+train_loss: 0.5249332412193887 acc: 0.726850708168643 lr: 0.02133861755775969
+Finish Train
+Start Validation
+test_loss: 0.3827328283786774 acc: 0.836125
+Finish Validation
+Train Loss: 0.525 || Test Loss: 0.383 
+Train Acc: 0.727 || Test Acc: 0.836 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:52/200
+train_loss: 0.523918257891268 acc: 0.7293931159420289 lr: 0.021189771584547826
+Finish Train
+Start Validation
+test_loss: 0.36272870194911955 acc: 0.845625
+Finish Validation
+Train Loss: 0.524 || Test Loss: 0.363 
+Train Acc: 0.729 || Test Acc: 0.846 
+Save best model to best_epoch_weights.pth
+----------------------------------------------------
+----------------------------------------------------
+Epoch:53/200
+train_loss: 0.5247987925181747 acc: 0.7288784584980237 lr: 0.021038508358363725
+Finish Train
+Start Validation
+test_loss: 0.39124819421768187 acc: 0.8315
+Finish Validation
+Train Loss: 0.525 || Test Loss: 0.391 
+Train Acc: 0.729 || Test Acc: 0.832 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:54/200
+train_loss: 0.5232539939472013 acc: 0.7309988471673254 lr: 0.020884870570536562
+Finish Train
+Start Validation
+test_loss: 0.36595503175258637 acc: 0.8415
+Finish Validation
+Train Loss: 0.523 || Test Loss: 0.366 
+Train Acc: 0.731 || Test Acc: 0.842 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:55/200
+train_loss: 0.523742578540866 acc: 0.7289916831357048 lr: 0.020728901582572904
+Finish Train
+Start Validation
+test_loss: 0.3637092275619507 acc: 0.842125
+Finish Validation
+Train Loss: 0.524 || Test Loss: 0.364 
+Train Acc: 0.729 || Test Acc: 0.842 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:56/200
+train_loss: 0.5228010481014868 acc: 0.7299077733860343 lr: 0.02057064541391869
+Finish Train
+Start Validation
+test_loss: 0.36009210169315337 acc: 0.847375
+Finish Validation
+Train Loss: 0.523 || Test Loss: 0.360 
+Train Acc: 0.730 || Test Acc: 0.847 
+Save best model to best_epoch_weights.pth
+----------------------------------------------------
+----------------------------------------------------
+Epoch:57/200
+train_loss: 0.5194164067310464 acc: 0.7317811264822134 lr: 0.020410146729535537
+Finish Train
+Start Validation
+test_loss: 0.3951616184711456 acc: 0.82225
+Finish Validation
+Train Loss: 0.519 || Test Loss: 0.395 
+Train Acc: 0.732 || Test Acc: 0.822 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:58/200
+train_loss: 0.5170232458665908 acc: 0.7336647727272727 lr: 0.02024745082729484
+Finish Train
+Start Validation
+test_loss: 0.36383856093883515 acc: 0.844125
+Finish Validation
+Train Loss: 0.517 || Test Loss: 0.364 
+Train Acc: 0.734 || Test Acc: 0.844 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:59/200
+train_loss: 0.5167313332771282 acc: 0.7348484848484849 lr: 0.0200826036251933
+Finish Train
+Start Validation
+test_loss: 0.3532014583349228 acc: 0.854125
+Finish Validation
+Train Loss: 0.517 || Test Loss: 0.353 
+Train Acc: 0.735 || Test Acc: 0.854 
+Save best model to best_epoch_weights.pth
+----------------------------------------------------
+----------------------------------------------------
+Epoch:60/200
+train_loss: 0.5169912697023397 acc: 0.7330574769433466 lr: 0.019915651648393352
+Finish Train
+Start Validation
+test_loss: 0.338147652387619 acc: 0.858625
+Finish Validation
+Train Loss: 0.517 || Test Loss: 0.338 
+Train Acc: 0.733 || Test Acc: 0.859 
+Save best model to best_epoch_weights.pth
+----------------------------------------------------
+----------------------------------------------------
+Epoch:61/200
+train_loss: 0.5158924853456193 acc: 0.7352602108036891 lr: 0.019746642016092303
+Finish Train
+Start Validation
+test_loss: 0.36159500539302825 acc: 0.842375
+Finish Validation
+Train Loss: 0.516 || Test Loss: 0.362 
+Train Acc: 0.735 || Test Acc: 0.842 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:62/200
+train_loss: 0.5114065957242164 acc: 0.7367835968379447 lr: 0.019575622428223763
+Finish Train
+Start Validation
+test_loss: 0.37259493684768674 acc: 0.839625
+Finish Validation
+Train Loss: 0.511 || Test Loss: 0.373 
+Train Acc: 0.737 || Test Acc: 0.840 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:63/200
+train_loss: 0.512328164811505 acc: 0.7389039855072463 lr: 0.019402641151995217
+Finish Train
+Start Validation
+test_loss: 0.35213676261901855 acc: 0.84975
+Finish Validation
+Train Loss: 0.512 || Test Loss: 0.352 
+Train Acc: 0.739 || Test Acc: 0.850 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:64/200
+train_loss: 0.510165181182747 acc: 0.7383996212121212 lr: 0.019227747008265454
+Finish Train
+Start Validation
+test_loss: 0.3482685983181 acc: 0.8525
+Finish Validation
+Train Loss: 0.510 || Test Loss: 0.348 
+Train Acc: 0.738 || Test Acc: 0.853 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:65/200
+train_loss: 0.5075296972030393 acc: 0.7408699769433466 lr: 0.019050989357765762
+Finish Train
+Start Validation
+test_loss: 0.3453203861713409 acc: 0.858875
+Finish Validation
+Train Loss: 0.508 || Test Loss: 0.345 
+Train Acc: 0.741 || Test Acc: 0.859 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:66/200
+train_loss: 0.5086278091620394 acc: 0.7397891963109354 lr: 0.01887241808716876
+Finish Train
+Start Validation
+test_loss: 0.34851403105258943 acc: 0.8515
+Finish Validation
+Train Loss: 0.509 || Test Loss: 0.349 
+Train Acc: 0.740 || Test Acc: 0.852 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:67/200
+train_loss: 0.5095988403470777 acc: 0.7383893280632411 lr: 0.018692083595008756
+Finish Train
+Start Validation
+test_loss: 0.36112560975551605 acc: 0.843625
+Finish Validation
+Train Loss: 0.510 || Test Loss: 0.361 
+Train Acc: 0.738 || Test Acc: 0.844 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:68/200
+train_loss: 0.5064472893010015 acc: 0.7399950592885376 lr: 0.018510036777457696
+Finish Train
+Start Validation
+test_loss: 0.38483831024169923 acc: 0.828125
+Finish Validation
+Train Loss: 0.506 || Test Loss: 0.385 
+Train Acc: 0.740 || Test Acc: 0.828 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:69/200
+train_loss: 0.5014016893109471 acc: 0.7441534914361001 lr: 0.0183263290139606
+Finish Train
+Start Validation
+test_loss: 0.3644884315729141 acc: 0.842875
+Finish Validation
+Train Loss: 0.501 || Test Loss: 0.364 
+Train Acc: 0.744 || Test Acc: 0.843 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:70/200
+train_loss: 0.5012296307267565 acc: 0.7440608530961792 lr: 0.018141012152734663
+Finish Train
+Start Validation
+test_loss: 0.3917731105089188 acc: 0.82075
+Finish Validation
+Train Loss: 0.501 || Test Loss: 0.392 
+Train Acc: 0.744 || Test Acc: 0.821 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:71/200
+train_loss: 0.5005752422082409 acc: 0.7445446310935442 lr: 0.017954138496136026
+Finish Train
+Start Validation
+test_loss: 0.36219494354724885 acc: 0.8365
+Finish Validation
+Train Loss: 0.501 || Test Loss: 0.362 
+Train Acc: 0.745 || Test Acc: 0.837 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:72/200
+train_loss: 0.5015239815898878 acc: 0.7435976613965745 lr: 0.01776576078589835
+Finish Train
+Start Validation
+test_loss: 0.3477529336214066 acc: 0.84825
+Finish Validation
+Train Loss: 0.502 || Test Loss: 0.348 
+Train Acc: 0.744 || Test Acc: 0.848 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:73/200
+train_loss: 0.5025336147336307 acc: 0.7426918642951251 lr: 0.01757593218824743
+Finish Train
+Start Validation
+test_loss: 0.35983664107322694 acc: 0.846875
+Finish Validation
+Train Loss: 0.503 || Test Loss: 0.360 
+Train Acc: 0.743 || Test Acc: 0.847 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:74/200
+train_loss: 0.4943994793928031 acc: 0.7486104249011858 lr: 0.01738470627889599
+Finish Train
+Start Validation
+test_loss: 0.3584585882425308 acc: 0.8465
+Finish Validation
+Train Loss: 0.494 || Test Loss: 0.358 
+Train Acc: 0.749 || Test Acc: 0.847 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:75/200
+train_loss: 0.49514124574868573 acc: 0.7495779808959157 lr: 0.017192137027922882
+Finish Train
+Start Validation
+test_loss: 0.38378857684135437 acc: 0.827375
+Finish Validation
+Train Loss: 0.495 || Test Loss: 0.384 
+Train Acc: 0.750 || Test Acc: 0.827 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:76/200
+train_loss: 0.49392372157733905 acc: 0.7483530961791831 lr: 0.016998278784540993
+Finish Train
+Start Validation
+test_loss: 0.3610147411823273 acc: 0.839375
+Finish Validation
+Train Loss: 0.494 || Test Loss: 0.361 
+Train Acc: 0.748 || Test Acc: 0.839 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:77/200
+train_loss: 0.4915839562067401 acc: 0.7517910079051383 lr: 0.01680318626175819
+Finish Train
+Start Validation
+test_loss: 0.3911250286102295 acc: 0.821625
+Finish Validation
+Train Loss: 0.492 || Test Loss: 0.391 
+Train Acc: 0.752 || Test Acc: 0.822 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:78/200
+train_loss: 0.4926301680691786 acc: 0.749804430171278 lr: 0.016606914520935524
+Finish Train
+Start Validation
+test_loss: 0.35656720292568206 acc: 0.845875
+Finish Validation
+Train Loss: 0.493 || Test Loss: 0.357 
+Train Acc: 0.750 || Test Acc: 0.846 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:79/200
+train_loss: 0.48890694490927167 acc: 0.752532114624506 lr: 0.016409518956247163
+Finish Train
+Start Validation
+test_loss: 0.3918701825141907 acc: 0.82075
+Finish Validation
+Train Loss: 0.489 || Test Loss: 0.392 
+Train Acc: 0.753 || Test Acc: 0.821 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:80/200
+train_loss: 0.48725410331929 acc: 0.7532320487483531 lr: 0.016211055279046382
+Finish Train
+Start Validation
+test_loss: 0.3637133606672287 acc: 0.8475
+Finish Validation
+Train Loss: 0.487 || Test Loss: 0.364 
+Train Acc: 0.753 || Test Acc: 0.848 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:81/200
+train_loss: 0.4872796166202296 acc: 0.7532320487483531 lr: 0.016011579502142027
+Finish Train
+Start Validation
+test_loss: 0.36630563986301423 acc: 0.845875
+Finish Validation
+Train Loss: 0.487 || Test Loss: 0.366 
+Train Acc: 0.753 || Test Acc: 0.846 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:82/200
+train_loss: 0.48549176334392413 acc: 0.7560214920948617 lr: 0.015811147923989913
+Finish Train
+Start Validation
+test_loss: 0.35802960419654845 acc: 0.849375
+Finish Validation
+Train Loss: 0.485 || Test Loss: 0.358 
+Train Acc: 0.756 || Test Acc: 0.849 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:83/200
+train_loss: 0.4839280901454654 acc: 0.7542716567852438 lr: 0.015609817112803591
+Finish Train
+Start Validation
+test_loss: 0.32602554285526275 acc: 0.867625
+Finish Validation
+Train Loss: 0.484 || Test Loss: 0.326 
+Train Acc: 0.754 || Test Acc: 0.868 
+Save best model to best_epoch_weights.pth
+----------------------------------------------------
+----------------------------------------------------
+Epoch:84/200
+train_loss: 0.48102350324902765 acc: 0.7584403820816864 lr: 0.015407643890588995
+Finish Train
+Start Validation
+test_loss: 0.3445853519439697 acc: 0.85525
+Finish Validation
+Train Loss: 0.481 || Test Loss: 0.345 
+Train Acc: 0.758 || Test Acc: 0.855 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:85/200
+train_loss: 0.48134199228525476 acc: 0.7573184288537549 lr: 0.01520468531710743
+Finish Train
+Start Validation
+test_loss: 0.3382668091058731 acc: 0.855875
+Finish Validation
+Train Loss: 0.481 || Test Loss: 0.338 
+Train Acc: 0.757 || Test Acc: 0.856 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:86/200
+train_loss: 0.4793177594152207 acc: 0.7588109354413702 lr: 0.0150009986737715
+Finish Train
+Start Validation
+test_loss: 0.36240078485012056 acc: 0.84225
+Finish Validation
+Train Loss: 0.479 || Test Loss: 0.362 
+Train Acc: 0.759 || Test Acc: 0.842 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:87/200
+train_loss: 0.47576615999652777 acc: 0.7626708662714098 lr: 0.014796641447478451
+Finish Train
+Start Validation
+test_loss: 0.3585969293117523 acc: 0.84575
+Finish Validation
+Train Loss: 0.476 || Test Loss: 0.359 
+Train Acc: 0.763 || Test Acc: 0.846 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:88/200
+train_loss: 0.4761147270953388 acc: 0.7605401844532279 lr: 0.014591671314385523
+Finish Train
+Start Validation
+test_loss: 0.355967707157135 acc: 0.845
+Finish Validation
+Train Loss: 0.476 || Test Loss: 0.356 
+Train Acc: 0.761 || Test Acc: 0.845 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:89/200
+train_loss: 0.47423619567876746 acc: 0.7600769927536232 lr: 0.014386146123631904
+Finish Train
+Start Validation
+test_loss: 0.34649246752262114 acc: 0.850375
+Finish Validation
+Train Loss: 0.474 || Test Loss: 0.346 
+Train Acc: 0.760 || Test Acc: 0.850 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:90/200
+train_loss: 0.4711575158656979 acc: 0.7645133399209486 lr: 0.014180123881011825
+Finish Train
+Start Validation
+test_loss: 0.3535469671487808 acc: 0.8475
+Finish Validation
+Train Loss: 0.471 || Test Loss: 0.354 
+Train Acc: 0.765 || Test Acc: 0.848 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:91/200
+train_loss: 0.46726444128002576 acc: 0.7680233036890646 lr: 0.013973662732603486
+Finish Train
+Start Validation
+test_loss: 0.3344045088291168 acc: 0.861625
+Finish Validation
+Train Loss: 0.467 || Test Loss: 0.334 
+Train Acc: 0.768 || Test Acc: 0.862 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:92/200
+train_loss: 0.46931148912360077 acc: 0.7649250658761528 lr: 0.013766820948358367
+Finish Train
+Start Validation
+test_loss: 0.33243129289150236 acc: 0.855125
+Finish Validation
+Train Loss: 0.469 || Test Loss: 0.332 
+Train Acc: 0.765 || Test Acc: 0.855 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:93/200
+train_loss: 0.4657025651144887 acc: 0.7681982872200264 lr: 0.013559656905655564
+Finish Train
+Start Validation
+test_loss: 0.3750425159931183 acc: 0.840625
+Finish Validation
+Train Loss: 0.466 || Test Loss: 0.375 
+Train Acc: 0.768 || Test Acc: 0.841 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:94/200
+train_loss: 0.4664686233472761 acc: 0.7663866930171278 lr: 0.01335222907282586
+Finish Train
+Start Validation
+test_loss: 0.3589341992139816 acc: 0.84575
+Finish Validation
+Train Loss: 0.466 || Test Loss: 0.359 
+Train Acc: 0.766 || Test Acc: 0.846 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:95/200
+train_loss: 0.46239971959465265 acc: 0.7683732707509882 lr: 0.013144595992650042
+Finish Train
+Start Validation
+test_loss: 0.35521808099746705 acc: 0.848375
+Finish Validation
+Train Loss: 0.462 || Test Loss: 0.355 
+Train Acc: 0.768 || Test Acc: 0.848 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:96/200
+train_loss: 0.45888628884266486 acc: 0.7715950263504612 lr: 0.012936816265836287
+Finish Train
+Start Validation
+test_loss: 0.3487116891145706 acc: 0.85575
+Finish Validation
+Train Loss: 0.459 || Test Loss: 0.349 
+Train Acc: 0.772 || Test Acc: 0.856 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:97/200
+train_loss: 0.45797261874509265 acc: 0.7710700757575758 lr: 0.012728948534481142
+Finish Train
+Start Validation
+test_loss: 0.3527911510467529 acc: 0.8445
+Finish Validation
+Train Loss: 0.458 || Test Loss: 0.353 
+Train Acc: 0.771 || Test Acc: 0.845 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:98/200
+train_loss: 0.45772377347600635 acc: 0.7709362648221344 lr: 0.012521051465518861
+Finish Train
+Start Validation
+test_loss: 0.3374632675647736 acc: 0.859875
+Finish Validation
+Train Loss: 0.458 || Test Loss: 0.337 
+Train Acc: 0.771 || Test Acc: 0.860 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:99/200
+train_loss: 0.4540373702019414 acc: 0.7736845355731226 lr: 0.012313183734163716
+Finish Train
+Start Validation
+test_loss: 0.33252016198635104 acc: 0.857625
+Finish Validation
+Train Loss: 0.454 || Test Loss: 0.333 
+Train Acc: 0.774 || Test Acc: 0.858 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:100/200
+train_loss: 0.4554824773344912 acc: 0.7734169137022397 lr: 0.012105404007349961
+Finish Train
+Start Validation
+test_loss: 0.3336204741001129 acc: 0.858
+Finish Validation
+Train Loss: 0.455 || Test Loss: 0.334 
+Train Acc: 0.773 || Test Acc: 0.858 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:101/200
+train_loss: 0.4499924414360476 acc: 0.7776473978919631 lr: 0.011897770927174143
+Finish Train
+Start Validation
+test_loss: 0.3131376128196716 acc: 0.86775
+Finish Validation
+Train Loss: 0.450 || Test Loss: 0.313 
+Train Acc: 0.778 || Test Acc: 0.868 
+Save best model to best_epoch_weights.pth
+----------------------------------------------------
+----------------------------------------------------
+Epoch:102/200
+train_loss: 0.44586636336110486 acc: 0.7800868741765481 lr: 0.011690343094344439
+Finish Train
+Start Validation
+test_loss: 0.34215307581424714 acc: 0.856625
+Finish Validation
+Train Loss: 0.446 || Test Loss: 0.342 
+Train Acc: 0.780 || Test Acc: 0.857 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:103/200
+train_loss: 0.44629019216115295 acc: 0.7792737154150198 lr: 0.011483179051641637
+Finish Train
+Start Validation
+test_loss: 0.3501363506317139 acc: 0.844125
+Finish Validation
+Train Loss: 0.446 || Test Loss: 0.350 
+Train Acc: 0.779 || Test Acc: 0.844 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:104/200
+train_loss: 0.4473411133795073 acc: 0.7778841403162056 lr: 0.011276337267396516
+Finish Train
+Start Validation
+test_loss: 0.3249456080198288 acc: 0.8625
+Finish Validation
+Train Loss: 0.447 || Test Loss: 0.325 
+Train Acc: 0.778 || Test Acc: 0.863 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:105/200
+train_loss: 0.44265712597388995 acc: 0.7820013998682477 lr: 0.011069876118988178
+Finish Train
+Start Validation
+test_loss: 0.34291141128540037 acc: 0.85225
+Finish Validation
+Train Loss: 0.443 || Test Loss: 0.343 
+Train Acc: 0.782 || Test Acc: 0.852 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:106/200
+train_loss: 0.4425326164551717 acc: 0.7836071310935442 lr: 0.010863853876368098
+Finish Train
+Start Validation
+test_loss: 0.3333663456439972 acc: 0.85875
+Finish Validation
+Train Loss: 0.443 || Test Loss: 0.333 
+Train Acc: 0.784 || Test Acc: 0.859 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:107/200
+train_loss: 0.43968926798135083 acc: 0.783987977602108 lr: 0.010658328685614478
+Finish Train
+Start Validation
+test_loss: 0.3577231249809265 acc: 0.84725
+Finish Validation
+Train Loss: 0.440 || Test Loss: 0.358 
+Train Acc: 0.784 || Test Acc: 0.847 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:108/200
+train_loss: 0.43694336785001087 acc: 0.7838644598155468 lr: 0.01045335855252155
+Finish Train
+Start Validation
+test_loss: 0.3374368348121643 acc: 0.8535
+Finish Validation
+Train Loss: 0.437 || Test Loss: 0.337 
+Train Acc: 0.784 || Test Acc: 0.854 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:109/200
+train_loss: 0.436289410208682 acc: 0.7845129281949934 lr: 0.010249001326228503
+Finish Train
+Start Validation
+test_loss: 0.33425647819042204 acc: 0.859125
+Finish Validation
+Train Loss: 0.436 || Test Loss: 0.334 
+Train Acc: 0.785 || Test Acc: 0.859 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:110/200
+train_loss: 0.4355400207603402 acc: 0.7859230895915679 lr: 0.010045314682892574
+Finish Train
+Start Validation
+test_loss: 0.3282721709012985 acc: 0.8615
+Finish Validation
+Train Loss: 0.436 || Test Loss: 0.328 
+Train Acc: 0.786 || Test Acc: 0.862 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:111/200
+train_loss: 0.4322134484886652 acc: 0.788475790513834 lr: 0.00984235610941101
+Finish Train
+Start Validation
+test_loss: 0.33474213802814484 acc: 0.85925
+Finish Validation
+Train Loss: 0.432 || Test Loss: 0.335 
+Train Acc: 0.788 || Test Acc: 0.859 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:112/200
+train_loss: 0.42849492066698114 acc: 0.7895668642951251 lr: 0.00964018288719641
+Finish Train
+Start Validation
+test_loss: 0.34884372985363005 acc: 0.853875
+Finish Validation
+Train Loss: 0.428 || Test Loss: 0.349 
+Train Acc: 0.790 || Test Acc: 0.854 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:113/200
+train_loss: 0.42668374295055633 acc: 0.7915122694334651 lr: 0.00943885207601009
+Finish Train
+Start Validation
+test_loss: 0.323033381819725 acc: 0.8615
+Finish Validation
+Train Loss: 0.427 || Test Loss: 0.323 
+Train Acc: 0.792 || Test Acc: 0.862 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:114/200
+train_loss: 0.4239773747458445 acc: 0.7913887516469038 lr: 0.009238420497857976
+Finish Train
+Start Validation
+test_loss: 0.325037411570549 acc: 0.863875
+Finish Validation
+Train Loss: 0.424 || Test Loss: 0.325 
+Train Acc: 0.791 || Test Acc: 0.864 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:115/200
+train_loss: 0.41883236322949524 acc: 0.7957633399209486 lr: 0.00903894472095362
+Finish Train
+Start Validation
+test_loss: 0.3380326805114746 acc: 0.8625
+Finish Validation
+Train Loss: 0.419 || Test Loss: 0.338 
+Train Acc: 0.796 || Test Acc: 0.863 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:116/200
+train_loss: 0.4195421152454905 acc: 0.7943737648221344 lr: 0.00884048104375284
+Finish Train
+Start Validation
+test_loss: 0.33393025410175325 acc: 0.86625
+Finish Validation
+Train Loss: 0.420 || Test Loss: 0.334 
+Train Acc: 0.794 || Test Acc: 0.866 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:117/200
+train_loss: 0.41888158965723316 acc: 0.794826663372859 lr: 0.00864308547906448
+Finish Train
+Start Validation
+test_loss: 0.3466281875371933 acc: 0.849375
+Finish Validation
+Train Loss: 0.419 || Test Loss: 0.347 
+Train Acc: 0.795 || Test Acc: 0.849 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:118/200
+train_loss: 0.4179244732903869 acc: 0.7955780632411067 lr: 0.008446813738241814
+Finish Train
+Start Validation
+test_loss: 0.349883686542511 acc: 0.849625
+Finish Validation
+Train Loss: 0.418 || Test Loss: 0.350 
+Train Acc: 0.796 || Test Acc: 0.850 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:119/200
+train_loss: 0.4133900458849623 acc: 0.7981204710144928 lr: 0.00825172121545901
+Finish Train
+Start Validation
+test_loss: 0.31441289067268374 acc: 0.868625
+Finish Validation
+Train Loss: 0.413 || Test Loss: 0.314 
+Train Acc: 0.798 || Test Acc: 0.869 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:120/200
+train_loss: 0.40857452914923703 acc: 0.8023509552042161 lr: 0.008057862972077123
+Finish Train
+Start Validation
+test_loss: 0.3343659901618958 acc: 0.8585
+Finish Validation
+Train Loss: 0.409 || Test Loss: 0.334 
+Train Acc: 0.802 || Test Acc: 0.859 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:121/200
+train_loss: 0.4074510319332674 acc: 0.8016921936758893 lr: 0.00786529372110401
+Finish Train
+Start Validation
+test_loss: 0.32873386919498443 acc: 0.863375
+Finish Validation
+Train Loss: 0.407 || Test Loss: 0.329 
+Train Acc: 0.802 || Test Acc: 0.863 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:122/200
+train_loss: 0.4066882569131801 acc: 0.8019701086956522 lr: 0.007674067811752572
+Finish Train
+Start Validation
+test_loss: 0.32985470628738406 acc: 0.855875
+Finish Validation
+Train Loss: 0.407 || Test Loss: 0.330 
+Train Acc: 0.802 || Test Acc: 0.856 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:123/200
+train_loss: 0.40303426256528485 acc: 0.8044095849802372 lr: 0.007484239214101658
+Finish Train
+Start Validation
+test_loss: 0.3090439041852951 acc: 0.869125
+Finish Validation
+Train Loss: 0.403 || Test Loss: 0.309 
+Train Acc: 0.804 || Test Acc: 0.869 
+Save best model to best_epoch_weights.pth
+----------------------------------------------------
+----------------------------------------------------
+Epoch:124/200
+train_loss: 0.40127484033151734 acc: 0.8046051548089591 lr: 0.007295861503863984
+Finish Train
+Start Validation
+test_loss: 0.34093544256687164 acc: 0.85325
+Finish Validation
+Train Loss: 0.401 || Test Loss: 0.341 
+Train Acc: 0.805 || Test Acc: 0.853 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:125/200
+train_loss: 0.3981728503021641 acc: 0.8069211133069829 lr: 0.00710898784726534
+Finish Train
+Start Validation
+test_loss: 0.3269404977560043 acc: 0.862875
+Finish Validation
+Train Loss: 0.398 || Test Loss: 0.327 
+Train Acc: 0.807 || Test Acc: 0.863 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:126/200
+train_loss: 0.3952767323795829 acc: 0.8088356389986825 lr: 0.006923670986039408
+Finish Train
+Start Validation
+test_loss: 0.33440938305854795 acc: 0.86025
+Finish Validation
+Train Loss: 0.395 || Test Loss: 0.334 
+Train Acc: 0.809 || Test Acc: 0.860 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:127/200
+train_loss: 0.39490945369240793 acc: 0.8091341403162056 lr: 0.0067399632225423126
+Finish Train
+Start Validation
+test_loss: 0.33891977405548096 acc: 0.862625
+Finish Validation
+Train Loss: 0.395 || Test Loss: 0.339 
+Train Acc: 0.809 || Test Acc: 0.863 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:128/200
+train_loss: 0.3916382821318503 acc: 0.8109869071146245 lr: 0.006557916404991249
+Finish Train
+Start Validation
+test_loss: 0.3380263466835022 acc: 0.865125
+Finish Validation
+Train Loss: 0.392 || Test Loss: 0.338 
+Train Acc: 0.811 || Test Acc: 0.865 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:129/200
+train_loss: 0.3876526577297564 acc: 0.8127367424242424 lr: 0.006377581912831248
+Finish Train
+Start Validation
+test_loss: 0.32246057772636416 acc: 0.864375
+Finish Validation
+Train Loss: 0.388 || Test Loss: 0.322 
+Train Acc: 0.813 || Test Acc: 0.864 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:130/200
+train_loss: 0.38441293695463025 acc: 0.8137454710144928 lr: 0.00619901064223424
+Finish Train
+Start Validation
+test_loss: 0.3118689482808113 acc: 0.873
+Finish Validation
+Train Loss: 0.384 || Test Loss: 0.312 
+Train Acc: 0.814 || Test Acc: 0.873 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:131/200
+train_loss: 0.38149697989303916 acc: 0.8176671607378129 lr: 0.006022252991734551
+Finish Train
+Start Validation
+test_loss: 0.3364459971189499 acc: 0.860625
+Finish Validation
+Train Loss: 0.381 || Test Loss: 0.336 
+Train Acc: 0.818 || Test Acc: 0.861 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:132/200
+train_loss: 0.3805771946062841 acc: 0.8178524374176548 lr: 0.005847358848004787
+Finish Train
+Start Validation
+test_loss: 0.3426191827058792 acc: 0.857875
+Finish Validation
+Train Loss: 0.381 || Test Loss: 0.343 
+Train Acc: 0.818 || Test Acc: 0.858 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:133/200
+train_loss: 0.37921901129686786 acc: 0.8185420783926218 lr: 0.005674377571776241
+Finish Train
+Start Validation
+test_loss: 0.32431319868564606 acc: 0.868
+Finish Validation
+Train Loss: 0.379 || Test Loss: 0.324 
+Train Acc: 0.819 || Test Acc: 0.868 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:134/200
+train_loss: 0.3739341802315907 acc: 0.8217329545454546 lr: 0.005503357983907704
+Finish Train
+Start Validation
+test_loss: 0.34769967555999753 acc: 0.84425
+Finish Validation
+Train Loss: 0.374 || Test Loss: 0.348 
+Train Acc: 0.822 || Test Acc: 0.844 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:135/200
+train_loss: 0.3767797589714348 acc: 0.8194581686429513 lr: 0.00533434835160665
+Finish Train
+Start Validation
+test_loss: 0.28806226527690887 acc: 0.881625
+Finish Validation
+Train Loss: 0.377 || Test Loss: 0.288 
+Train Acc: 0.819 || Test Acc: 0.882 
+Save best model to best_epoch_weights.pth
+----------------------------------------------------
+----------------------------------------------------
+Epoch:136/200
+train_loss: 0.3697613511082369 acc: 0.8222476119894598 lr: 0.005167396374806704
+Finish Train
+Start Validation
+test_loss: 0.30668025350570677 acc: 0.87175
+Finish Validation
+Train Loss: 0.370 || Test Loss: 0.307 
+Train Acc: 0.822 || Test Acc: 0.872 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:137/200
+train_loss: 0.36790327542266354 acc: 0.823925395256917 lr: 0.005002549172705164
+Finish Train
+Start Validation
+test_loss: 0.3303877452611923 acc: 0.86525
+Finish Validation
+Train Loss: 0.368 || Test Loss: 0.330 
+Train Acc: 0.824 || Test Acc: 0.865 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:138/200
+train_loss: 0.363317846083751 acc: 0.8275897562582345 lr: 0.004839853270464472
+Finish Train
+Start Validation
+test_loss: 0.30386860966682433 acc: 0.874875
+Finish Validation
+Train Loss: 0.363 || Test Loss: 0.304 
+Train Acc: 0.828 || Test Acc: 0.875 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:139/200
+train_loss: 0.36247837269612454 acc: 0.828516139657444 lr: 0.004679354586081315
+Finish Train
+Start Validation
+test_loss: 0.31730549430847166 acc: 0.87075
+Finish Validation
+Train Loss: 0.362 || Test Loss: 0.317 
+Train Acc: 0.829 || Test Acc: 0.871 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:140/200
+train_loss: 0.35726462180906604 acc: 0.8297204380764164 lr: 0.004521098417427098
+Finish Train
+Start Validation
+test_loss: 0.33599003171920777 acc: 0.8615
+Finish Validation
+Train Loss: 0.357 || Test Loss: 0.336 
+Train Acc: 0.830 || Test Acc: 0.862 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:141/200
+train_loss: 0.3544690981114649 acc: 0.831449687088274 lr: 0.004365129429463442
+Finish Train
+Start Validation
+test_loss: 0.3648535463809967 acc: 0.860875
+Finish Validation
+Train Loss: 0.354 || Test Loss: 0.365 
+Train Acc: 0.831 || Test Acc: 0.861 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:142/200
+train_loss: 0.35555291536100925 acc: 0.8304718379446641 lr: 0.004211491641636282
+Finish Train
+Start Validation
+test_loss: 0.31026071214675904 acc: 0.872
+Finish Validation
+Train Loss: 0.356 || Test Loss: 0.310 
+Train Acc: 0.830 || Test Acc: 0.872 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:143/200
+train_loss: 0.3499797041551241 acc: 0.8341156126482213 lr: 0.004060228415452178
+Finish Train
+Start Validation
+test_loss: 0.34937006437778473 acc: 0.862875
+Finish Validation
+Train Loss: 0.350 || Test Loss: 0.349 
+Train Acc: 0.834 || Test Acc: 0.863 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:144/200
+train_loss: 0.3471869206907564 acc: 0.8352890316205533 lr: 0.00391138244224031
+Finish Train
+Start Validation
+test_loss: 0.3387232964038849 acc: 0.8635
+Finish Validation
+Train Loss: 0.347 || Test Loss: 0.339 
+Train Acc: 0.835 || Test Acc: 0.864 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:145/200
+train_loss: 0.34588449378651276 acc: 0.8359580862977603 lr: 0.003764995731103625
+Finish Train
+Start Validation
+test_loss: 0.33119562220573423 acc: 0.8685
+Finish Validation
+Train Loss: 0.346 || Test Loss: 0.331 
+Train Acc: 0.836 || Test Acc: 0.869 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:146/200
+train_loss: 0.3438330281609289 acc: 0.8371315052700923 lr: 0.003621109597062502
+Finish Train
+Start Validation
+test_loss: 0.33075735354423524 acc: 0.862875
+Finish Validation
+Train Loss: 0.344 || Test Loss: 0.331 
+Train Acc: 0.837 || Test Acc: 0.863 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:147/200
+train_loss: 0.34065186467919895 acc: 0.8387887022397892 lr: 0.0034797646493943454
+Finish Train
+Start Validation
+test_loss: 0.3193897216320038 acc: 0.87175
+Finish Validation
+Train Loss: 0.341 || Test Loss: 0.319 
+Train Acc: 0.839 || Test Acc: 0.872 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:148/200
+train_loss: 0.33417816487618274 acc: 0.8418663537549407 lr: 0.00334100078017234
+Finish Train
+Start Validation
+test_loss: 0.3536088418960571 acc: 0.859125
+Finish Validation
+Train Loss: 0.334 || Test Loss: 0.354 
+Train Acc: 0.842 || Test Acc: 0.859 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:149/200
+train_loss: 0.3350710484134193 acc: 0.8427412714097496 lr: 0.003204857153006626
+Finish Train
+Start Validation
+test_loss: 0.3478447808623314 acc: 0.863625
+Finish Validation
+Train Loss: 0.335 || Test Loss: 0.348 
+Train Acc: 0.843 || Test Acc: 0.864 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:150/200
+train_loss: 0.33367988007813104 acc: 0.8421545619235836 lr: 0.00307137219199109
+Finish Train
+Start Validation
+test_loss: 0.31146210348606107 acc: 0.869875
+Finish Validation
+Train Loss: 0.334 || Test Loss: 0.311 
+Train Acc: 0.842 || Test Acc: 0.870 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:151/200
+train_loss: 0.32985817194377637 acc: 0.8460247859025033 lr: 0.0029405835708588308
+Finish Train
+Start Validation
+test_loss: 0.32364878845214845 acc: 0.867625
+Finish Validation
+Train Loss: 0.330 || Test Loss: 0.324 
+Train Acc: 0.846 || Test Acc: 0.868 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:152/200
+train_loss: 0.3255343885898433 acc: 0.8467453063241107 lr: 0.0028125282023494427
+Finish Train
+Start Validation
+test_loss: 0.3312260538339615 acc: 0.864625
+Finish Validation
+Train Loss: 0.326 || Test Loss: 0.331 
+Train Acc: 0.847 || Test Acc: 0.865 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:153/200
+train_loss: 0.3248472511670178 acc: 0.8470129281949934 lr: 0.002687242227791046
+Finish Train
+Start Validation
+test_loss: 0.3446431562900543 acc: 0.859
+Finish Validation
+Train Loss: 0.325 || Test Loss: 0.345 
+Train Acc: 0.847 || Test Acc: 0.859 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:154/200
+train_loss: 0.3192160778307161 acc: 0.8499155961791831 lr: 0.0025647610069000565
+Finish Train
+Start Validation
+test_loss: 0.33739712727069854 acc: 0.860875
+Finish Validation
+Train Loss: 0.319 || Test Loss: 0.337 
+Train Acc: 0.850 || Test Acc: 0.861 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:155/200
+train_loss: 0.31733850078541925 acc: 0.8524065382081687 lr: 0.0024451191078015367
+Finish Train
+Start Validation
+test_loss: 0.3272229406833649 acc: 0.864
+Finish Validation
+Train Loss: 0.317 || Test Loss: 0.327 
+Train Acc: 0.852 || Test Acc: 0.864 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:156/200
+train_loss: 0.31546737999705615 acc: 0.8513566370223979 lr: 0.002328350297272957
+Finish Train
+Start Validation
+test_loss: 0.30635337555408476 acc: 0.872625
+Finish Validation
+Train Loss: 0.315 || Test Loss: 0.306 
+Train Acc: 0.851 || Test Acc: 0.873 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:157/200
+train_loss: 0.31074700337664096 acc: 0.8541769598155468 lr: 0.0022144875312141337
+Finish Train
+Start Validation
+test_loss: 0.3217589519023895 acc: 0.86675
+Finish Validation
+Train Loss: 0.311 || Test Loss: 0.322 
+Train Acc: 0.854 || Test Acc: 0.867 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:158/200
+train_loss: 0.3124350504520225 acc: 0.8521183300395256 lr: 0.0021035629453460243
+Finish Train
+Start Validation
+test_loss: 0.32040252280235293 acc: 0.87175
+Finish Validation
+Train Loss: 0.312 || Test Loss: 0.320 
+Train Acc: 0.852 || Test Acc: 0.872 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:159/200
+train_loss: 0.3059430597190486 acc: 0.8562355895915679 lr: 0.0019956078461409914
+Finish Train
+Start Validation
+test_loss: 0.32293832617998125 acc: 0.869625
+Finish Validation
+Train Loss: 0.306 || Test Loss: 0.323 
+Train Acc: 0.856 || Test Acc: 0.870 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:160/200
+train_loss: 0.3031558349964176 acc: 0.859179430171278 lr: 0.0018906527019871074
+Finish Train
+Start Validation
+test_loss: 0.3375721024274826 acc: 0.8645
+Finish Validation
+Train Loss: 0.303 || Test Loss: 0.338 
+Train Acc: 0.859 || Test Acc: 0.865 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:161/200
+train_loss: 0.3026324805996242 acc: 0.8579442523056654 lr: 0.001788727134589012
+Finish Train
+Start Validation
+test_loss: 0.33367959833145144 acc: 0.865125
+Finish Validation
+Train Loss: 0.303 || Test Loss: 0.334 
+Train Acc: 0.858 || Test Acc: 0.865 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:162/200
+train_loss: 0.3011400023271601 acc: 0.8594161725955204 lr: 0.0016898599106077038
+Finish Train
+Start Validation
+test_loss: 0.33250229424238203 acc: 0.86475
+Finish Validation
+Train Loss: 0.301 || Test Loss: 0.333 
+Train Acc: 0.859 || Test Acc: 0.865 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:163/200
+train_loss: 0.29986897831456305 acc: 0.8592617753623188 lr: 0.0015940789335416841
+Finish Train
+Start Validation
+test_loss: 0.36297787284851074 acc: 0.861375
+Finish Validation
+Train Loss: 0.300 || Test Loss: 0.363 
+Train Acc: 0.859 || Test Acc: 0.861 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:164/200
+train_loss: 0.2916274712137554 acc: 0.8642745388669302 lr: 0.0015014112358516772
+Finish Train
+Start Validation
+test_loss: 0.33449561774730685 acc: 0.867
+Finish Validation
+Train Loss: 0.292 || Test Loss: 0.334 
+Train Acc: 0.864 || Test Acc: 0.867 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:165/200
+train_loss: 0.29554086497571314 acc: 0.8611145421607378 lr: 0.0014118829713312153
+Finish Train
+Start Validation
+test_loss: 0.33162188494205475 acc: 0.86325
+Finish Validation
+Train Loss: 0.296 || Test Loss: 0.332 
+Train Acc: 0.861 || Test Acc: 0.863 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:166/200
+train_loss: 0.28865267169000447 acc: 0.8654891304347826 lr: 0.0013255194077251963
+Finish Train
+Start Validation
+test_loss: 0.32977972400188443 acc: 0.87275
+Finish Validation
+Train Loss: 0.289 || Test Loss: 0.330 
+Train Acc: 0.865 || Test Acc: 0.873 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:167/200
+train_loss: 0.288846064432572 acc: 0.8660243741765481 lr: 0.0012423449195985191
+Finish Train
+Start Validation
+test_loss: 0.36598373293876646 acc: 0.85975
+Finish Validation
+Train Loss: 0.289 || Test Loss: 0.366 
+Train Acc: 0.866 || Test Acc: 0.860 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:168/200
+train_loss: 0.2852812183085873 acc: 0.8661890645586298 lr: 0.0011623829814567956
+Finish Train
+Start Validation
+test_loss: 0.35926761615276337 acc: 0.864375
+Finish Validation
+Train Loss: 0.285 || Test Loss: 0.359 
+Train Acc: 0.866 || Test Acc: 0.864 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:169/200
+train_loss: 0.2843763034874193 acc: 0.8657876317523057 lr: 0.0010856561611210982
+Finish Train
+Start Validation
+test_loss: 0.3324658682346344 acc: 0.870125
+Finish Validation
+Train Loss: 0.284 || Test Loss: 0.332 
+Train Acc: 0.866 || Test Acc: 0.870 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:170/200
+train_loss: 0.28048395954455313 acc: 0.8700489953886693 lr: 0.001012186113358593
+Finish Train
+Start Validation
+test_loss: 0.3454015920162201 acc: 0.867875
+Finish Validation
+Train Loss: 0.280 || Test Loss: 0.345 
+Train Acc: 0.870 || Test Acc: 0.868 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:171/200
+train_loss: 0.27897891205918335 acc: 0.8707386363636364 lr: 0.0009419935737708761
+Finish Train
+Start Validation
+test_loss: 0.36058895695209503 acc: 0.8675
+Finish Validation
+Train Loss: 0.279 || Test Loss: 0.361 
+Train Acc: 0.871 || Test Acc: 0.868 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:172/200
+train_loss: 0.27374865950057004 acc: 0.8740633234519104 lr: 0.0008750983529417177
+Finish Train
+Start Validation
+test_loss: 0.34758977937698365 acc: 0.8655
+Finish Validation
+Train Loss: 0.274 || Test Loss: 0.348 
+Train Acc: 0.874 || Test Acc: 0.866 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:173/200
+train_loss: 0.2741013535191655 acc: 0.8729104907773386 lr: 0.0008115193308458829
+Finish Train
+Start Validation
+test_loss: 0.35187360632419584 acc: 0.8605
+Finish Validation
+Train Loss: 0.274 || Test Loss: 0.352 
+Train Acc: 0.873 || Test Acc: 0.861 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:174/200
+train_loss: 0.2708992986634315 acc: 0.8752573287220027 lr: 0.0007512744515205951
+Finish Train
+Start Validation
+test_loss: 0.34417786478996276 acc: 0.867
+Finish Validation
+Train Loss: 0.271 || Test Loss: 0.344 
+Train Acc: 0.875 || Test Acc: 0.867 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:175/200
+train_loss: 0.2686703872568758 acc: 0.8759469696969697 lr: 0.0006943807180011558
+Finish Train
+Start Validation
+test_loss: 0.367552081823349 acc: 0.854625
+Finish Validation
+Train Loss: 0.269 || Test Loss: 0.368 
+Train Acc: 0.876 || Test Acc: 0.855 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:176/200
+train_loss: 0.26627255499127356 acc: 0.8758646245059288 lr: 0.000640854187522146
+Finish Train
+Start Validation
+test_loss: 0.3720186176300049 acc: 0.858625
+Finish Validation
+Train Loss: 0.266 || Test Loss: 0.372 
+Train Acc: 0.876 || Test Acc: 0.859 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:177/200
+train_loss: 0.26480753688394476 acc: 0.8767189558629777 lr: 0.000590709966985555
+Finish Train
+Start Validation
+test_loss: 0.35517710065841673 acc: 0.856375
+Finish Validation
+Train Loss: 0.265 || Test Loss: 0.355 
+Train Acc: 0.877 || Test Acc: 0.856 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:178/200
+train_loss: 0.2629040114002423 acc: 0.8783143939393939 lr: 0.0005439622086971309
+Finish Train
+Start Validation
+test_loss: 0.3615073117017746 acc: 0.867625
+Finish Validation
+Train Loss: 0.263 || Test Loss: 0.362 
+Train Acc: 0.878 || Test Acc: 0.868 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:179/200
+train_loss: 0.2619721932736703 acc: 0.8792098978919631 lr: 0.0005006241063721489
+Finish Train
+Start Validation
+test_loss: 0.3624042831659317 acc: 0.86275
+Finish Validation
+Train Loss: 0.262 || Test Loss: 0.362 
+Train Acc: 0.879 || Test Acc: 0.863 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:180/200
+train_loss: 0.26021705581088783 acc: 0.879693675889328 lr: 0.00046070789141171677
+Finish Train
+Start Validation
+test_loss: 0.3509536073207855 acc: 0.86725
+Finish Validation
+Train Loss: 0.260 || Test Loss: 0.351 
+Train Acc: 0.880 || Test Acc: 0.867 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:181/200
+train_loss: 0.2596782950416934 acc: 0.8802597990777339 lr: 0.0004242248294506825
+Finish Train
+Start Validation
+test_loss: 0.3572534271478653 acc: 0.85875
+Finish Validation
+Train Loss: 0.260 || Test Loss: 0.357 
+Train Acc: 0.880 || Test Acc: 0.859 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:182/200
+train_loss: 0.25997343744802853 acc: 0.8808053359683794 lr: 0.000391185217178122
+Finish Train
+Start Validation
+test_loss: 0.3235440607070923 acc: 0.875625
+Finish Validation
+Train Loss: 0.260 || Test Loss: 0.324 
+Train Acc: 0.881 || Test Acc: 0.876 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:183/200
+train_loss: 0.25587083072903444 acc: 0.8822463768115942 lr: 0.0003615983794312655
+Finish Train
+Start Validation
+test_loss: 0.34833742046356203 acc: 0.864375
+Finish Validation
+Train Loss: 0.256 || Test Loss: 0.348 
+Train Acc: 0.882 || Test Acc: 0.864 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:184/200
+train_loss: 0.25446687449795613 acc: 0.8822052042160737 lr: 0.0003354726665637431
+Finish Train
+Start Validation
+test_loss: 0.36107697486877444 acc: 0.864625
+Finish Validation
+Train Loss: 0.254 || Test Loss: 0.361 
+Train Acc: 0.882 || Test Acc: 0.865 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:185/200
+train_loss: 0.25386534511493286 acc: 0.8833889163372859 lr: 0.00031281545208884057
+Finish Train
+Start Validation
+test_loss: 0.3523995265960693 acc: 0.86675
+Finish Validation
+Train Loss: 0.254 || Test Loss: 0.352 
+Train Acc: 0.883 || Test Acc: 0.867 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:186/200
+train_loss: 0.2540133500935532 acc: 0.8831212944664032 lr: 0.00029363313059846126
+Finish Train
+Start Validation
+test_loss: 0.3429273456335068 acc: 0.868125
+Finish Validation
+Train Loss: 0.254 || Test Loss: 0.343 
+Train Acc: 0.883 || Test Acc: 0.868 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:187/200
+train_loss: 0.2527087804209809 acc: 0.8839035737812911 lr: 0.00027793111595836946
+Finish Train
+Start Validation
+test_loss: 0.3639990699291229 acc: 0.858
+Finish Validation
+Train Loss: 0.253 || Test Loss: 0.364 
+Train Acc: 0.884 || Test Acc: 0.858 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:188/200
+train_loss: 0.2525652437685585 acc: 0.883985918972332 lr: 0.0002657138397802162
+Finish Train
+Start Validation
+test_loss: 0.35848383432626724 acc: 0.87025
+Finish Validation
+Train Loss: 0.253 || Test Loss: 0.358 
+Train Acc: 0.884 || Test Acc: 0.870 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:189/200
+train_loss: 0.25128433795471594 acc: 0.8835124341238472 lr: 0.00025698475017080284
+Finish Train
+Start Validation
+test_loss: 0.35893467426300046 acc: 0.864125
+Finish Validation
+Train Loss: 0.251 || Test Loss: 0.359 
+Train Acc: 0.884 || Test Acc: 0.864 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:190/200
+train_loss: 0.2504354869806955 acc: 0.8854784255599473 lr: 0.00025174631075891297
+Finish Train
+Start Validation
+test_loss: 0.3487141064405441 acc: 0.86625
+Finish Validation
+Train Loss: 0.250 || Test Loss: 0.349 
+Train Acc: 0.885 || Test Acc: 0.866 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:191/200
+train_loss: 0.2521898286498111 acc: 0.8838521080368906 lr: 0.00025
+Finish Train
+Start Validation
+test_loss: 0.3621814116239548 acc: 0.865
+Finish Validation
+Train Loss: 0.252 || Test Loss: 0.362 
+Train Acc: 0.884 || Test Acc: 0.865 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:192/200
+train_loss: 0.2490409451275475 acc: 0.8855916501976284 lr: 0.00025
+Finish Train
+Start Validation
+test_loss: 0.3325519070625305 acc: 0.879625
+Finish Validation
+Train Loss: 0.249 || Test Loss: 0.333 
+Train Acc: 0.886 || Test Acc: 0.880 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:193/200
+train_loss: 0.25030053687209514 acc: 0.885354907773386 lr: 0.00025
+Finish Train
+Start Validation
+test_loss: 0.36492630958557126 acc: 0.86475
+Finish Validation
+Train Loss: 0.250 || Test Loss: 0.365 
+Train Acc: 0.885 || Test Acc: 0.865 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:194/200
+train_loss: 0.24892636254056796 acc: 0.8847064393939394 lr: 0.00025
+Finish Train
+Start Validation
+test_loss: 0.36642475295066834 acc: 0.858375
+Finish Validation
+Train Loss: 0.249 || Test Loss: 0.366 
+Train Acc: 0.885 || Test Acc: 0.858 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:195/200
+train_loss: 0.24863811156789775 acc: 0.8857769268774703 lr: 0.00025
+Finish Train
+Start Validation
+test_loss: 0.34906309086084364 acc: 0.871
+Finish Validation
+Train Loss: 0.249 || Test Loss: 0.349 
+Train Acc: 0.886 || Test Acc: 0.871 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:196/200
+train_loss: 0.2510000631330984 acc: 0.8839344532279315 lr: 0.00025
+Finish Train
+Start Validation
+test_loss: 0.3704532073736191 acc: 0.860125
+Finish Validation
+Train Loss: 0.251 || Test Loss: 0.370 
+Train Acc: 0.884 || Test Acc: 0.860 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:197/200
+train_loss: 0.24798665947632983 acc: 0.8873826581027668 lr: 0.00025
+Finish Train
+Start Validation
+test_loss: 0.3619486563205719 acc: 0.865
+Finish Validation
+Train Loss: 0.248 || Test Loss: 0.362 
+Train Acc: 0.887 || Test Acc: 0.865 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:198/200
+train_loss: 0.24503094925298521 acc: 0.8880722990777339 lr: 0.00025
+Finish Train
+Start Validation
+test_loss: 0.37903149116039275 acc: 0.859125
+Finish Validation
+Train Loss: 0.245 || Test Loss: 0.379 
+Train Acc: 0.888 || Test Acc: 0.859 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:199/200
+train_loss: 0.2446622685756294 acc: 0.8877635046113307 lr: 0.00025
+Finish Train
+Start Validation
+test_loss: 0.3565775672793388 acc: 0.8655
+Finish Validation
+Train Loss: 0.245 || Test Loss: 0.357 
+Train Acc: 0.888 || Test Acc: 0.866 
+----------------------------------------------------
+----------------------------------------------------
+Epoch:200/200
+train_loss: 0.24248603046706071 acc: 0.8894104084321476 lr: 0.00025
+Finish Train
+Start Validation
+test_loss: 0.3422163378000259 acc: 0.869625
+Finish Validation
+Train Loss: 0.242 || Test Loss: 0.342 
+Train Acc: 0.889 || Test Acc: 0.870 
+----------------------------------------------------
