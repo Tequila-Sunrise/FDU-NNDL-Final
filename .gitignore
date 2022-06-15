@@ -152,4 +152,7 @@ cython_debug/
 #.idea/
 
 # Dataset
-code/dataset/
+Orc_Bert/dataset/
+
+# DS_Store
+.DS_Store
